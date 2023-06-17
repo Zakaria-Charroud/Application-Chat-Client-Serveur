@@ -26,7 +26,6 @@ public class Client extends JFrame {
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
 
-        // Ask for client name
         clientName = JOptionPane.showInputDialog(this, "Enter your name:");
 
         chatTextArea = new JTextArea();
